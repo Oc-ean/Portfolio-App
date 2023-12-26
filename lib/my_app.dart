@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hng_tasks/screens/home_screen.dart';
+import 'package:hng_tasks/views/splash/splash_screen.dart';
+
+import '../constants/theme.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,10 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const HomeScreen(),
+      theme: AppTheme.darkTheme,
+      themeMode: ThemeMode.dark,
+      home: const SplashScreen(),
     );
   }
 }
