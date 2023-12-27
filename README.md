@@ -1,10 +1,13 @@
-# hng_tasks
+# Portfolio
 
-A new Flutter project.
+Portfolio Application.
 
 ## ScreenShots
 
-<img src="screenshots/home.png" width="300"/>        <img src="screenshots/git_hub_link.png" width="300"/>
+
+<img src="screenshots/splash.png" width="300"/>    
+<img src="screenshots/home.png" width="300"/>        <img src="screenshots/details.png" width="300"/>
+<img src="screenshots/github.png" width="300"/>      <img src="screenshots/twitter.png" width="300"/>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
