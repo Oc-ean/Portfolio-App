@@ -136,10 +136,6 @@ class DetailsScreen extends StatelessWidget {
               ),
             ),
           )
-          // Text(
-          //   hobbies,
-          //   style: themeData.textTheme.bodyMedium!.copyWith(),
-          // ),
         ],
       ),
     );
@@ -155,7 +151,7 @@ class DetailsScreen extends StatelessWidget {
       child: Row(
         children: [
           Text(
-            '${title} :',
+            '$title :',
             style: const TextStyle(fontSize: 17),
           ),
           const SizedBox(
